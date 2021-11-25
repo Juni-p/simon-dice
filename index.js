@@ -18,12 +18,18 @@ function secuenciaJugador(color) {
   combinacionDeColoresMaquina.push(color);
 }
 
+function secuenciaDeColoresJugador(color) {
+  combinacionDeColoresJugador.push(color);
+}
+
 function clickearBotones() {
   botones.forEach((boton) => {
     boton.addEventListener("click", (btn) => {
       let color = btn.target.id;
       console.log(color);
+      secuenciaDeColoresJugador(color);
       remarcarColor(color);
+      console.log(combinacionDeColoresJugador);
     });
   });
 }
