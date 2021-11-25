@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+}
+
+.contenedor {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.btn-jugar {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.azul {
+  background-color: blue;
+  margin-bottom: 6px;
+}
+.rojo {
+  background-color: red;
+  margin-bottom: 6px;
+}
+.amarillo {
+  background-color: yellow;
+}
+.verde {
+  background-color: green;
+}
+.flash {
+  background-color: rgb(240, 234, 227);
+}
