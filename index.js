@@ -42,7 +42,7 @@ function pruebaUsuario(event) {
 
   if (jugadasJugador.length === jugadasMaquina.length) {
     bloquearUsuario();
-    setTimeout(pruebaMaquina, 1000);
+    setTimeout(manejarTurnoMaquina, 1000);
   }
 }
 
