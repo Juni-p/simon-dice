@@ -3,7 +3,7 @@ let jugadasJugador = [];
 
 const $botones = document.querySelectorAll(".btn");
 
-document.querySelector("#jugar").onclick = pruebaMaquina;
+document.querySelector("#jugar").onclick = manejarTurnoMaquina;
 
 function manejarTurnoMaquina() {
   bloquearUsuario();
