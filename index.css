@@ -1,0 +1,36 @@
+.btn {
+  width: 200px;
+  height: 200px;
+  border: none;
+}
+.rojo {
+  background-color: red;
+}
+.azul {
+  background-color: blue;
+}
+.verde {
+  background-color: green;
+}
+.amarillo {
+  background-color: yellow;
+}
+
+.btn.resaltar {
+  opacity: 0.5;
+}
+.bloquear {
+  pointer-events: none;
+}
+
+#jugar {
+  border: none;
+  color: #f1f1f1;
+  background-color: #100f0f;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.cursor {
+  cursor: pointer;
+}
